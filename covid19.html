@@ -10,6 +10,8 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/covid19.js"></script>
 </head>
 
 <body>
@@ -66,94 +68,247 @@
 
     </div>
 
-    <!-- this is about us page -->
-
-
-    <!-- this is web development part  -->
-    <div class="container py-5">
-        <h3 class="text-center text-primary">Shagufa Parween (B.tech)</h3>
-        <hr class="w-75 pt-5 mx-auto">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="image/team/shagufa.JPG" alt="" class="img-fluid"
-                  >
+    <!-- services area -->
+<div class="main_header">
+    <div class="row w-100 h-100 row_style">
+        <div class="col-lg-5 col-md-5 col-12 order-lg-1 order-2 ">
+            <div class="leftside w-100 h-100 d-flex justify-content-center align-items-center eksath_anime">
+                <img src="image/eksath.png" width="300" height="300">
             </div>
-            <div class="col-md-6 ">
-                <h5 class="text-center pt-3">Programming Skills</h5>
-                <hr class="w-75 pt-2 mx-auto">
-                <div class="mb-3">
-                    <h6>Python</h6>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:80%">80%</div>
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <h6>Numpy</h6>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width:75%">75%</div>
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <h6>Pandas</h6>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:80%">80%</div>
-                    </div>
-                </div>  
-                <div class="mb-3">
-                    <h6>Matplotlib</h6>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:60%">60%</div>
-                    </div>
-                </div> 
-                <div class="mb-3">
-                    <h6>Tkinter</h6>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:80%">80%</div>
-                    </div>
-                </div> 
-                <div class="mb-3">
-                    <h6>Skeleton</h6>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width:65%">65%</div>
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <h6>TensorFlow</h6>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:80%">80%</div>
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <h6>PyGame</h6>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-" style="width:75%">75%</div>
-                    </div>
-                </div>
+        </div>
+
+        <div class="col-lg-7 col-md-7 col-12 order-1 order-lg-2 ">
+            <div class="rightside  w-100 h-100 d-flex justify-content-center align-items-center text-left">
+                <h1>Let's Stay Safe & Fight Together <br> Against Cor<span class="corona_anime"><img
+                            src="image/corona.png"></span>na Virus</h1>
             </div>
-            <a class="btn btn-success btn block mt-5 mx-5 btn-lg btn-block" target="blank" href="https://api.whatsapp.com/send?phone=+918969043457&amp;text=Hi%20,Mr's Shagufa Parween I want to developed software please help me." role="button" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Whatsapp Now</a>
-            <a href="tel:8969043457" class="btn btn-primary btn block mt-3 mx-5 btn-lg btn-block" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Call Now</a>
         </div>
     </div>
-        <!-- footer area  -->
-        <section class="bg-primary  text-center">
-            <article class="p-5 text-white">
-                <h1>Want To Join</h1>
-                <p>Be a part of professional programmer family</p>
-                <a class="btn btn-success w-50 mt-5 mx-auto btn-lg btn-block" target="blank"
-                    href="https://chat.whatsapp.com/GanlJNnUQDULQ39kyM3Gyn" role="button"
-                    style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Join Now</a>
-                <h6 class="text-center pt-5 bg-primary">@copyright webdevelopment.com 2020</h6>
-            </article>
-            
-        </section>    
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</div>
+<section class="corono_update">
+    <div class=" mb-5 ">
+        <h3 class="text-center text-uppercase mb-5 text-primary"> covid-19 updates in Indian</h3>
+    </div>
 
-        <!-- Popper JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <div class=" d-flex justify-content-around align-items-center row">
+        <div class="col-md-3 bg-warning text-center m-1">
+            <h1 class="count" id='totalConfirmCase'> </h1>
+            <p>Total Confirm Case</p>
+        </div>
+        <div class="col-md-3 bg-danger text-center m-1">
+            <h1 class="count" id='totalDeath'> </h1>
+            <p>Total Death Case</p>
+        </div>
+        <div class="col-md-3 bg-success text-center m-1">
+            <h1 class="count" id="TotalRecovered">  </h1>
+            <p>Total Recovered Case</p> 
+        </div>
+        <div class="col-md-3 bg-secondary text-center m-1">
+            <h1 class="count" id="totalActiveCase">  </h1>
+            <p>Total Active Case</p>
+        </div>
+        <div class="col-md-3 bg-warning text-center m-1">
+            <h1 class="count" id="newConfirm"> </h1>
+            <p>New Confirm  Case</p>
+        </div>
+        <div class="col-md-3 bg-danger text-center m-1">
+            <h1 class="count" id="newDeath"> </h1>
+            <p>New Death Case</p>
+        </div>
+        <div class="col-md-3 bg-success text-center m-1">
+            <h1 class="count" id="newRecover"> </h1>
+            <p>New Recover Case</p>
+        </div>
+    </div>
+</section>
+<div class="container-fluid sub_section pt-5 pb-5" id="aboutid">
+    <div class="section_header text-center mb-5 mt-4">
+        <h1 class="">About COVID-19</h1>
+    </div>
 
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <div class="row pt-5">
+        <div class="col-lg-5 col-md-6  col-6 ml-5">
+            <!-- <div class="  "> -->
+            <img src="image/aboutcorona.jpg" class="img-fluid">
+            <!-- </div> -->
+        </div>
+
+        <div class="col-lg-6  col-md-6 col-6">
+            <h2 class="pb-3">What is COVID-19 (Corona-Virus)</h2>
+            <p>COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and
+                disease were unknown before the outbreak began in Wuhan, China, in December 2019.</p>
+            <p>Coronaviruses are a large family of viruses which may cause illness in animals or humans. In humans,
+                several coronaviruses are known to cause respiratory infections ranging from the common cold to more
+                severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome
+                (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19.
+            </p>
+
+        </div>
+    </div>
+</div>
+<div class="container-fluid  pt-5 pb-5" id="sympid">
+    <div class="section_header text-center mb-5 mt-4">
+        <h1 class="">Coronavirus symptoms </h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mt-5 ">
+                <figure class="text-center">
+                    <img src="image/cough.png" class="img-fluid" width="120" height="120">
+                    <figcaption> cough </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 mt-5 ">
+                <figure class="text-center">
+                    <img src="image/runnynose.png" class="img-fluid" width="120" height="120">
+                    <figcaption> runny nose </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 mt-5 ">
+                <figure class="text-center">
+                    <img src="image/fever.png" class="img-fluid" width="120" height="120">
+                    <figcaption> fever </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 mt-5 ">
+                <figure class="text-center">
+                    <img src="image/sick.png" class="img-fluid" width="120" height="120">
+                    <figcaption> cold </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 mt-5 ">
+                <figure class="text-center">
+                    <img src="image/week.png" class="img-fluid" width="120" height="120">
+                    <figcaption> tiredness </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12 mt-5 ">
+                <figure class="text-center">
+                    <img src="image/breath.png" class="img-fluid" width="120" height="120">
+                    <figcaption> difficulty breathing (severe cases) </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="container-fluid sub_section pt-5 pb-5" id="preventid">
+    <div class="section_header text-center mb-5 mt-4">
+        <h1 class="text-capitalize">6 steps Prevention against Coronavirus </h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4  col-md-4  col-12 mt-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12 ">
+                        <figure>
+                            <img src="image/handwash.png" class="img-fluid" width="90" height="90">
+                        </figure>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-12">
+                        <p>Wash your hands regularly for 20 seconds, with soap and water or alcohol-based hand rub</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4  col-md-4  col-12 mt-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12 ">
+                        <figure>
+                            <img src="image/mask.png" class="img-fluid" width="90" height="90">
+                        </figure>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-12">
+                        <p>Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4  col-md-4  col-12 mt-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12 ">
+                        <figure>
+                            <img src="image/quarantine.png" class="img-fluid" width="90" height="90">
+                        </figure>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-12">
+                        <p>Avoid close contact (1 meter or 3 feet) with people who are unwell</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4  col-md-4  col-12 mt-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12 ">
+                        <figure>
+                            <img src="image/home.png" class="img-fluid" width="90" height="90">
+                        </figure>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-12">
+                        <p>Stay home and self-isolate from others in the household if you feel unwell</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4  col-md-4  col-12 mt-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12 ">
+                        <figure>
+                            <img src="image/news.png" class="img-fluid" width="90" height="90">
+                        </figure>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-12">
+                        <p>Stay informed by watching news & follow the recommended practices</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4  col-md-4  col-12 mt-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12 ">
+                        <figure>
+                            <img src="image/medical.png" class="img-fluid" width="90" height="90">
+                        </figure>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-12">
+                        <p>If you have fever, cough and difficulty breathing, seek medical care early</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- footer area  -->
+    <section class="bg-primary  text-center">
+        <article class="p-5 text-white">
+            <h1>Want To Join</h1>
+            <p>Be a part of professional programmer family</p>
+            <a class="btn btn-success w-50 mt-5 mx-auto btn-lg btn-block" target="blank"
+                href="https://chat.whatsapp.com/GanlJNnUQDULQ39kyM3Gyn" role="button"
+                style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Join Now</a>
+            <h6 class="text-center pt-5 bg-primary">@copyright webdevelopment.com 2020</h6>
+        </article>
+
+    </section>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
