@@ -19,12 +19,9 @@
     width: 100%;
     /* box-shadow: 0 0 5px black; */
   }
+
   .profileGallary {
-    height: 100%;
-    width: 100%;
-  }
-  .profileGallary {
-    height: 50vh;
+    height: 60vh;
     width: 28vw;
   }
 }
@@ -50,7 +47,7 @@
     margin: 10px 5px;
   }
   .profileGallary {
-    height: 50vh;
+    height: 60vh;
     width: 92vw;
   }
 }
