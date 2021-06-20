@@ -19,10 +19,14 @@
     width: 100%;
     /* box-shadow: 0 0 5px black; */
   }
-  /* .profileGallary {
+  .profileGallary {
     height: 100%;
     width: 100%;
-  } */
+  }
+  .profileGallary {
+    height: 50vh;
+    width: 28vw;
+  }
 }
 @media screen and (max-width: 880px) {
   #carousel-inner img {
@@ -44,5 +48,9 @@
   }
   .aktubtn {
     margin: 10px 5px;
+  }
+  .profileGallary {
+    height: 50vh;
+    width: 92vw;
   }
 }
