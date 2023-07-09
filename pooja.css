@@ -64,7 +64,9 @@ body {
       user-select: none;
     }
     audio{
+      position: absolute;
       bottom: 10%;
+      left: 40%;
       
     }
   }
