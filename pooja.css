@@ -36,7 +36,7 @@ body {
     .happy {
       /* position: absolute; */
       top: 45%;
-      left:20%;
+      left:50%;
       text-align: center;
       /* transform: translate(-50%, -50%); */
       color: #fff;
@@ -48,7 +48,7 @@ body {
     }
     .name{
       top: 65%;
-      left: 30%;
+      left: 50%;
       text-align: center;
 
       color: #fff;
