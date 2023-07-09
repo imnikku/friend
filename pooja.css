@@ -4,16 +4,39 @@ body {
     cursor: crosshair;
   }
   canvas{display:block}
-  
+  .happy {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  .name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+  }
 
   
 
 
   @media only screen and (max-width: 600px) {
     .happy {
-      position: absolute;
-      top: 100%;
-      left:100%;
+      /* position: absolute; */
+      top: 51%;
+      left:79%;
       text-align: center;
       /* transform: translate(-50%, -50%); */
       color: #fff;
@@ -24,9 +47,8 @@ body {
       user-select: none;
     }
     .name{
-      position: absolute;
-      top: 140%;
-      left: 120%;
+      top: 83%;
+      left: 79%;
       text-align: center;
 
       color: #fff;
