@@ -35,8 +35,8 @@ body {
   @media only screen and (max-width: 600px) {
     .happy {
       /* position: absolute; */
-      top: 61%;
-      left:79%;
+      top: 51%;
+      left:50%;
       text-align: center;
       /* transform: translate(-50%, -50%); */
       color: #fff;
@@ -47,8 +47,8 @@ body {
       user-select: none;
     }
     .name{
-      top: 93%;
-      left: 79%;
+      top: 83%;
+      left: 50%;
       text-align: center;
 
       color: #fff;
