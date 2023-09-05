@@ -1,72 +1,79 @@
 body {
-    margin: 0;
-    background: #020202;
-    cursor: crosshair;
-  }
-  canvas{display:block}
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+
+canvas {
+  display: block
+}
+
+.happy {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 4em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.name {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+audio {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+
+}
+
+
+@media only screen and (max-width: 600px) {
   .happy {
-    position: absolute;
-    top: 20%;
+    /* position: absolute; */
+    top: 35%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    /* transform: translate(-50%, -50%); */
     color: #fff;
     font-family: "Source Sans Pro";
-    font-size: 5em;
-    font-weight: 900;
-    -webkit-user-select: none;
-    user-select: none;
-  }
-  .name{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-family: "Source Sans Pro";
-    font-size: 5em;
+    font-size: 4rem;
     font-weight: 900;
     -webkit-user-select: none;
     user-select: none;
   }
 
-  audio{
+  .name {
+    top: 53%;
+    left: 50%;
+    text-align: center;
+
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 4em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  audio {
     position: absolute;
-    bottom: 10%;
+    bottom: 7%;
     left: 10%;
-    
+
   }
-
-
-  @media only screen and (max-width: 600px) {
-    .happy {
-      /* position: absolute; */
-      top: 35%;
-      left:50%;
-      text-align: center;
-      /* transform: translate(-50%, -50%); */
-      color: #fff;
-      font-family: "Source Sans Pro";
-      font-size: 4rem;
-      font-weight: 900;
-      -webkit-user-select: none;
-      user-select: none;
-    }
-    .name{
-      top: 53%;
-      left: 50%;
-      text-align: center;
-
-      color: #fff;
-      font-family: "Source Sans Pro";
-      font-size: 4em;
-      font-weight: 900;
-      -webkit-user-select: none;
-      user-select: none;
-    }
-    audio{
-      position: absolute;
-      bottom: 7%;
-      left: 10%;
-      
-    }
-  }
+}
